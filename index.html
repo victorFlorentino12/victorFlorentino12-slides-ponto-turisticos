@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="imagnes">
+        <h1>Pontos turisticos da França</h1>
+        <div class="center">
+            <div class="conteiner-slider">
+                <div class="conteiner-slider-single">
+                    <img src="images/img1.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img2.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img3.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img4.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img5.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img6.jpeg">
+                </div>
+            </div>
+            <p>
+                Explorar a Itália é como vagar por um museu ao ar livre, onde cada esquina revela uma obra-prima cultural ou uma vista panorâmica deslumbrante. Das ruínas antigas de Roma, onde o passado se encontra com o presente, às vias navegáveis românticas de Veneza, a Itália cativa com sua riqueza histórica e beleza natural. A arte renascentista de Florença é um testemunho da genialidade humana, enquanto a costa ensolarada da Costa Amalfitana oferece um refúgio à beira-mar. Cada cidade e vila tem sua própria história para contar, enquanto a culinária italiana é um deleite para os sentidos, proporcionando uma viagem gastronômica inesquecível. Viajar pela Itália é como ser transportado para um mundo de encanto eterno e sabores autênticos.
+            </p>
+        </div>
+    </section>
+    <section class="imagnes">
+        <h1>Pontos turisticos da Inglaterra</h1>
+        <div class="center">
+            <div class="conteiner-slider">
+                <div class="conteiner-slider-single">
+                    <img src="images/img7.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/im8.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img9.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img10.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img11.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img12.jpeg">
+                </div>
+            </div>
+            <p>Explorar a Inglaterra é como caminhar por uma tapeçaria de tradição e inovação. Das ruas empedradas de Londres, onde a arquitetura histórica se mistura com arranha-céus modernos, aos cenários bucólicos das regiões rurais como os Cotswolds, a Inglaterra cativa com sua diversidade. Os icônicos pontos turísticos, como o Big Ben e o Palácio de Buckingham, dividem espaço com museus de classe mundial e uma cena artística vibrante. A rica herança literária transpira em cidades como Oxford e Stratford-upon-Avon, enquanto os pubs acolhedores oferecem uma amostra da autenticidade britânica. Seja imerso na cultura urbana ou na beleza natural, viajar pela Inglaterra é uma jornada de contrastes e descobertas contínuas.</p>
+        </div>
+    </section>
+    <section class="imagnes">
+        <h1>Pontos turisticos da Italia</h1>
+        <div class="center">
+            <div class="conteiner-slider">
+                <div class="conteiner-slider-single">
+                    <img src="images/img13.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img14.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img15.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img16.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img17.jpeg">
+                </div>
+                <div class="conteiner-slider-single">
+                    <img src="images/img18.jpeg">
+                </div>
+            </div>
+            <p>Viajar pela Itália é como folhear as páginas de um livro de história vivo. Desde a grandiosidade dos monumentos romanos em Roma até a serenidade dos canais de Veneza e as paisagens pitorescas da Toscana, cada cidade e região é um capítulo único e encantador. As obras-primas artísticas em Florença e os sabores autênticos da gastronomia italiana enriquecem a jornada, enquanto a Costa Amalfitana oferece vistas de tirar o fôlego. Cada esquina revela um pedaço da rica herança cultural do país, convidando os viajantes a se perder em suas histórias e belezas atemporais.</p>
+        </div>
+    </section>
+    <script src="assets/jquery/jquery.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script>
+        $('.conteiner-slider').slick({
+            dots:true,
+            arrows:false,
+            speed:1000,
+            slidesToShow:3,
+            slidesToScroll:3,
+            autoplay:true,
+            autoplaySpeed:3000,
+            pauseOnHover:false,
+            responsive:[{
+                breakpont:768,
+                settings:{
+                    slideToShow:1,
+                    slidesToScroll:1
+                }
+            }]
+})
+    </script>
+</body>
+</html>
